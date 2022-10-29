@@ -7,7 +7,7 @@ class Highlights extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(titileText: 'Highlights',),
+      appBar: const CustomAppBar(titileText: 'Highlights',),
       body: Column(),
     );
   }

@@ -5,6 +5,7 @@ import 'package:t20_world_cup_app_flutter/view/history_screen/history.dart';
 import 'package:t20_world_cup_app_flutter/view/live_score/live_score.dart';
 import 'package:t20_world_cup_app_flutter/view/schedule_screen/schedule.dart';
 import 'package:t20_world_cup_app_flutter/view/team_screen/team.dart';
+import 'package:t20_world_cup_app_flutter/view/venue_screen/venue_screen.dart';
 import 'package:t20_world_cup_app_flutter/widgets/app_text.dart';
 import 'package:t20_world_cup_app_flutter/widgets/background_image.dart';
 import 'package:t20_world_cup_app_flutter/widgets/custom_app_bar.dart';
@@ -29,7 +30,7 @@ class _HomeState extends State<Home> {
       children: [
 
         DashboardItem(dashBoardTitle: 'Schedule',imagePath: 'assets/dashboard/schedule.png',onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context) => Schedule()));},),
-        DashboardItem(dashBoardTitle: 'Venues',imagePath: 'assets/dashboard/venues.png',onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context) => Schedule()));},),
+        DashboardItem(dashBoardTitle: 'Venues',imagePath: 'assets/dashboard/venues.png',onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context) => Venue()));},),
         DashboardItem(dashBoardTitle: 'History',imagePath: 'assets/dashboard/history.png',onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context) => History()));},),
         DashboardItem(dashBoardTitle: 'Teams',imagePath: 'assets/dashboard/teams.png',onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context) => Team()));},),
         DashboardItem(dashBoardTitle: 'Live Score',imagePath: 'assets/dashboard/live_score.png',onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context) => LiveScore()));},),

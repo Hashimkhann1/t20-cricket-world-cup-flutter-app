@@ -9,7 +9,7 @@ class History extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(titileText: 'History',),
+      appBar: const CustomAppBar(titileText: 'History',),
       body: BackgroundImage(child: Column(),),
     );
   }
