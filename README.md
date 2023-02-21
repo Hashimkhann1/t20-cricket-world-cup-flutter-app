@@ -1,7 +1,6 @@
 # T20 World Cup App Flutter
-
-In this T20 World Cup app you can see all previce Matches date, veneus and winners of the match.
-And alse you can see all upcoming matches and tournaments in Live score screen.
+- In this T20 World Cup app you can see all previce Matches date, veneus and winners of the match.
+- And alse you can see all upcoming matches and tournaments in Live score screen.
 
 <div style="display:flex;">
 <img src="https://user-images.githubusercontent.com/84334197/219968738-359610ad-327a-4667-bf30-affa2376c098.jpeg" height="360" width="190" />
